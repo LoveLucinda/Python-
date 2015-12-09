@@ -1,18 +1,20 @@
 ﻿# -*- coding: utf-8 -*-
 import numpy as np
 import pylab as pl  
- 
+# 基本的剖面数据对数功率谱求取
 # 0. Input parameter
 filename=u"I:\\Research\\1-EMD in Marine ravity\\DATA\\ExtractData\\点距规则化+功率谱\\2014_029.S-162-提取测线2_距离_规则化5.dat"
-startrow=1
+startrow=1      #数据开始的行号
+colnum_x=0      #x的列号
+colnum_y=6      #y的列号
 #_________________________________________________________________________________________________________________________________
 
 # 1. read data
 AllData=np.loadtxt(filename,dtype=np.str,delimiter="\t")
 
 # 2. extract data
-x=AllData[startrow:,0].astype(np.float)
-y=AllData[startrow:,6].astype(np.float)
+x=AllData[startrow:,colnum_x].astype(np.float)
+y=AllData[startrow:,colnum_y].astype(np.float)
 longitude=AllData[startrow:,1].astype(np.float)
 
 # 3. plot raw data
