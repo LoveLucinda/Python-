@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "剖面数据处理", "剖面数据处理\剖面数据处理.pyproj", "{4C0ACDF8-6DCF-4FA6-8EF7-DB8A9DB53B48}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WPFPythonTest", "WPFPythonTest\WPFPythonTest.pyproj", "{1483D879-1B0B-4247-8627-538974D794F5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +13,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4C0ACDF8-6DCF-4FA6-8EF7-DB8A9DB53B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C0ACDF8-6DCF-4FA6-8EF7-DB8A9DB53B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1483D879-1B0B-4247-8627-538974D794F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1483D879-1B0B-4247-8627-538974D794F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

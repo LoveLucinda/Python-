@@ -1,7 +1,7 @@
 ﻿# -*- coding: utf-8 -*-
 import numpy as np
-import pylab as pl
-
+import pylab as pl  
+ 
 # 0. Input parameter
 filename=u"I:\\Research\\1-EMD in Marine ravity\\DATA\\ExtractData\\点距规则化+功率谱\\2014_029.S-162-提取测线2_距离_规则化5.dat"
 startrow=1
